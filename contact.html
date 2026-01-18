@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Jamila Ghorbel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="parcours.html">Parcours</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="experiences.html">Expériences</a></li>
+                <li><a href="manifestations.html">Manifestations</a></li>
+                <li><a href="matieres.html">Matières</a></li>
+                <li><a href="passions.html">Passions</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="temoignage.html">Témoignage</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Me Contacter</h1>
+        <div class="card">
+            <p>Remplissez le formulaire pour m'envoyer un message directement.</p>
+
+            <form id="contactForm">
+                <label for="user_email">Votre Email :</label>
+                <input type="email" id="user_email" placeholder="votre@email.com" required>
+
+                <label for="user_subject">Objet :</label>
+                <input type="text" id="user_subject" placeholder="Sujet du message" required>
+
+                <label for="user_message">Votre Message :</label>
+                <textarea id="user_message" rows="8" placeholder="Bonjour Jamila..." required></textarea>
+
+                <button type="button" onclick="envoyerEmail()">Envoyer le message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jamila Ghorbel - Étudiante Ingénieur IIT</p>
+    </footer>
+
+   <script src="js/script.js"></script>
+</body>
+
+</html>
